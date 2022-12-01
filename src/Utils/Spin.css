@@ -1,0 +1,71 @@
+
+  button {
+    background: none;
+    border: 1px solid black;
+    font-size: 20px;
+    border-radius: 5px;
+  }
+  
+  #spin{
+    position: absolute;
+    bottom: 25vh;
+    right: 78vw;
+  }
+  
+  #spin:hover {
+    color: rgb(0, 180, 120);
+    border-color: rgb(0, 180, 120);
+  }
+  
+  #spin:focus {
+    outline: none;
+  }
+  
+  #readout {
+    position: absolute;
+    bottom: 7vh;
+    left: 35vw;
+  }
+  
+  #selector {
+    position: absolute;
+    top: 9vh;
+    right: 78vw;
+    font-size: 40px;
+    z-index: 3;
+  }
+  
+  #result {
+    font-size: 50px;
+    color: rgb(0, 180, 120);
+  }
+  
+  input {
+    font-size: 16px;
+    border: none;
+    border-bottom: 1px solid black;
+  }
+  
+  @media screen and (min-width: 320px) and (max-width: 768px) {
+      
+    #code {
+      position: relative;
+      left: 50px;
+      width: 30%;
+    }
+
+    #selector {
+      position: absolute;
+      top: 8vh;
+      right: 58vw;
+      font-size: 40px;
+      z-index: 3;
+    }
+    #spin{
+      position: absolute;
+      bottom: 27vh;
+      right: 58vw;
+    }
+
+  }
+  
